@@ -1,0 +1,65 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+span, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagem1,.imagem2,.imagem3,.imagem4,.imagem5{
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imagem1{
+    background-image: url(../img/kame.png);
+}
+.imagem2{
+    background-image: url(../img/gohan.png);
+}
+.imagem3{
+    background-image: url(../img/manga.jpg);
+}
+.imagem4{
+    background-image: url(../img/kakarot.jpg);
+}
+.imagem5{
+    background-image: url(../img/goku.png);
+}
+
+.conteudo{
+    color: #777;
+    background-color: #fff;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+p{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
